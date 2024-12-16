@@ -85,7 +85,7 @@ canvas {
   position: absolute;
   left: 50%;
   top: 62%;
-  transform: translate(-50%, -43%);
+  transform: translate(-50%, -45%);
   width: 450px;
   height: 450px;
 }
@@ -117,6 +117,7 @@ audio::-webkit-media-controls-pause-button {
 }
 
 .STARDUST2 {
+  width: 850px !important;
   position: relative !important;
   top: -40px;
   span {
@@ -193,12 +194,6 @@ body {
   z-index: 20;
 }
 
-/* #footer {
-  position: absolute;
-  bottom: 0px;
-  height: 300px;
-  width: 100%;
-} */
 #scene {
   height: 100%;
   position: absolute;
@@ -219,7 +214,6 @@ a:hover {
 
 /* heart image: https://stackoverflow.com/a/51216413 */
 .img {
-  /* width: 200px; */
   aspect-ratio: 1;
   object-fit: cover;
   --_m: radial-gradient(#000 69%, #0000 70%) 84.5% fill/100%;
