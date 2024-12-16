@@ -85,7 +85,7 @@ canvas {
   position: absolute;
   left: 50%;
   top: 62%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -43%);
   width: 450px;
   height: 450px;
 }
